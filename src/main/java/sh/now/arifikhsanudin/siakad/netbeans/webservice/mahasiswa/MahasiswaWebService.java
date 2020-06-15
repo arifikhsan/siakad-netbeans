@@ -5,17 +5,16 @@
  */
 package sh.now.arifikhsanudin.siakad.netbeans.webservice.mahasiswa;
 
-import javax.jws.WebService;
-import javax.jws.WebMethod;
-import javax.jws.WebParam;
 
+import jakarta.jws.WebMethod;
+import jakarta.jws.WebParam;
+import jakarta.jws.WebService;
 /**
  *
  * @author arifikhsanudin
  */
 @WebService(serviceName = "MahasiswaWebService")
 public class MahasiswaWebService {
-
     /**
      * This is a sample web service operation
      */

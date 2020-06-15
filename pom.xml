@@ -29,6 +29,16 @@
             <version>${jakartaee}</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>com.sun.xml.ws</groupId>
+            <artifactId>jaxws-rt</artifactId>
+            <version>3.0.0-M3</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.6</version>
+        </dependency>
     </dependencies>
     
      <build>
